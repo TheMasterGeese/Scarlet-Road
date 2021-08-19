@@ -1,0 +1,162 @@
+{
+  "scarletroad_tribulation_fire": [
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 1.00,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.99,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.98,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.96,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.92,
+      "volume": 0.15
+    }
+  ],
+  "scarletroad_hearing_fire": [
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 1.00,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.99,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.98,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.96,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_tribulation_fire_01.ogg",
+      "pitch": 0.92,
+      "volume": 0.15
+    }
+  ],
+  "scarletroad_rebellion_fire": [
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 1.00,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 0.99,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 0.98,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 0.96,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_rebellion_fire_01.ogg",
+      "pitch": 0.92,
+      "volume": 0.15
+    }
+  ],
+  "scarletroad_confrontation_fire": [
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 1.00,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 0.99,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 0.98,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 0.96,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_confrontation_fire_01.ogg",
+      "pitch": 0.92,
+      "volume": 0.15
+    }
+  ],
+  "scarletroad_bladethrower_fire": [
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 1.00,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 0.99,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 0.98,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 0.96,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 0.94,
+      "volume": 0.15
+    },
+    {
+      "file": "sounds/sfx_wpn_guns/scarletroad_bladethrower_fire_01.ogg",
+      "pitch": 0.92,
+      "volume": 0.15
+    }
+  ]
+}

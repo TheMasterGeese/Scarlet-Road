@@ -1,0 +1,120 @@
+{
+  "hullName": "Triangle Battery",
+  "hullId": "scarletroad_module_trianglebattery",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/Auroran Triangular Battery.png",
+  "style": "LOW_TECH",
+  "height": 380,
+  "width": 256,
+  "center": [112, 150],
+  "collisionRadius": 241,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 255.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion",
+    "supercomputer",
+    "do_not_fire_through",
+    "scarletroad_scarletrefit",
+    "scarletroad_doru"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [163.5, 70]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -49.5,
+      "locations": [-106.5, -98]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [-54, -64]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [0, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [-32.5, -17.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [90, 27]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [-86.5, -67]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [121, 52.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [5, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -45,
+      "locations": [-38.5, 20.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -128, -127.5,
+    -94.5, 29,
+    235, 98
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "scarletroad_module_citadel_Standard",
+  "hullId": "scarletroad_module_citadel",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "anchorrotation",
+    "supercomputer"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir",
+        "WS0002": "mjolnir",
+        "WS0003": "dualflak",
+        "WS0004": "dualflak",
+        "WS0005": "scarletroad_confrontation",
+        "WS0006": "scarletroad_confrontation",
+        "WS0007": "scarletroad_confrontation",
+        "WS0008": "scarletroad_confrontation",
+        "WS0009": "squall",
+        "WS0010": "sabotpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,127 @@
+{
+  "hullName": "Justice",
+  "hullId": "scarletroad_justice",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Justice/Justice.png",
+  "style": "LOW_TECH",
+  "height": 95,
+  "width": 120,
+  "center": [60, 47.5],
+  "collisionRadius": 71.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "scarletroad_scarletrefit",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -180,
+      "locations": [-13, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [2.5, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [2.5, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [6.5, 41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [6.5, -41]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [19.5, 19.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [19.5, -19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 20],
+      "length": 41,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -20],
+      "length": 41,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -40.5, -1,
+    -32.5, -7.5,
+    -50, -7.5,
+    -26, -29,
+    -8.5, -29,
+    -4.5, -32.5,
+    -3.5, -62,
+    38.5, -2,
+    38.5, 2,
+    -3.5, 62,
+    -4.5, 32.5,
+    -8.5, 29,
+    -26, 29,
+    -50, 7.5,
+    -32.5, 7.5,
+    -40.5, 1
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "hullName": "Triangle Support",
+  "hullId": "scarletroad_module_trianglesupport",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/Auroran Triangular Support.png",
+  "style": "LOW_TECH",
+  "height": 380,
+  "width": 256,
+  "center": [150, 142],
+  "collisionRadius": 241,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 255.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "do_not_fire_through",
+    "supercomputer",
+    "reduced_explosion",
+    "scarletroad_scarletrefit",
+    "scarletroad_doru"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [23.5, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [62, -8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [-3.5, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [-42.5, 54]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [97, -34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 52.5,
+      "locations": [-72.5, 82.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 55.5,
+      "locations": [138.5, -50]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": -45,
+      "locations": [
+        -55.5, 26,
+        -48, 18
+      ]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": -45,
+      "locations": [
+        17.5, -27.5,
+        24, -32.5
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -87, -22.5,
+    -120.5, 134.5,
+    245, -92.5
+  ]
+}

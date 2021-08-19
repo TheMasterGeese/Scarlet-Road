@@ -1,0 +1,28 @@
+{
+  "hullName": "Station Armour",
+  "hullId": "scarletroad_module_armour",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/station_armour2.png",
+  "style": "LOW_TECH",
+  "height": 62,
+  "width": 146,
+  "center": [72.5, 26],
+  "collisionRadius": 87.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 72.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    35, 2.5,
+    15, -71.5,
+    -22, -72,
+    -22.5, 72,
+    12.5, 72,
+    34.5, 2.5
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "variantId": "scarletroad_dedication_Assault",
+  "hullId": "scarletroad_dedication",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 11,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "scarletroad_xiphos"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "scarletroad_hearing",
+        "WS0002": "scarletroad_hearing"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "scarletroad_rebellion",
+        "WS0004": "scarletroad_rebellion"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "typhoon",
+        "WS0006": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "scarletroad_confrontation"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

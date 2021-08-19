@@ -1,0 +1,12 @@
+{
+  "id": "scarletroad",
+  "name": "Scarlet Road",
+  "author": "MasterGeese",
+  "version": "0.1",
+  "description": "Faction mod for Scarlet Road",
+  "gameVersion": "0.95a-RC15",
+  "jars": [
+    "jars/mymod.jar"
+  ],
+  "modPlugin": "data.scripts.ScarletRoad_ModPlugin"
+}

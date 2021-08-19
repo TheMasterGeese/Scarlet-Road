@@ -1,0 +1,13 @@
+{
+	"id":"scarletroad_targetingoverclock",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.TargetingOverclockAI",
+	"statsScript":"data.shipsystems.scripts.TargetingOverclockStats",
+
+	"weaponGlowColor":[255,200,0,155],
+	"weaponTypes":[BALLISTIC],
+
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

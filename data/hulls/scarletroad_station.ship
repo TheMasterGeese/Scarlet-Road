@@ -1,0 +1,65 @@
+{
+  "hullName": "Orbital Station",
+  "hullId": "scarletroad_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/stations/auroran orbital station.png",
+  "style": "LOW_TECH",
+  "height": 900,
+  "width": 300,
+  "center": [150, 450],
+  "collisionRadius": 523,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 489.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "supercomputer",
+    "vastbulk",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-430, 125]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [430, 125]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [430, -125]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-430, -125]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    453, -148,
+    -447, -148,
+    -447, 152,
+    453, 152
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "variantId": "scarletroad_discipline_Assault",
+  "hullId": "scarletroad_discipline",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 23,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "hveldriver",
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver",
+        "WS0005": "hveldriver",
+        "WS0006": "harpoonpod",
+        "WS0007": "heavymauler",
+        "WS0008": "heavymauler",
+        "WS0009": "railgun",
+        "WS0010": "railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

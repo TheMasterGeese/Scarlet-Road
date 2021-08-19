@@ -1,0 +1,72 @@
+{
+  "variantId": "scarletroad_battlestation_Standard",
+  "hullId": "scarletroad_battlestation",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "scarletroad_module_trianglebattery_Standard"
+    },
+    {
+      "WS0004": "scarletroad_module_trianglesupport_Standard"
+    },
+    {
+      "WS0007": "scarletroad_module_trianglebattery_Standard"
+    },
+    {
+      "WS0010": "scarletroad_module_trianglesupport_Standard"
+    },
+    {
+      "WS0013": "scarletroad_module_citadel_Standard"
+    },
+    {
+      "WS0015": "scarletroad_module_strut_Standard"
+    },
+    {
+      "WS0014": "scarletroad_module_citadel_Standard"
+    },
+    {
+      "WS0016": "scarletroad_module_citadelarmourright_Standard"
+    },
+    {
+      "WS0017": "scarletroad_module_citadelarmourleft_Standard"
+    },
+    {
+      "WS0018": "scarletroad_module_citadelarmourright_Standard"
+    },
+    {
+      "WS0019": "scarletroad_module_citadelarmourleft_Standard"
+    },
+    {
+      "WS0005": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0002": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0006": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0003": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0008": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0011": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0012": "scarletroad_module_armour_Standard"
+    },
+    {
+      "WS0009": "scarletroad_module_armour_Standard"
+    }
+  ],
+  "wings": []
+}

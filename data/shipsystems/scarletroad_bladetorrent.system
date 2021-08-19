@@ -1,0 +1,13 @@
+{
+    "id":"scarletroad_bladetorrent",
+    "type":"WEAPON",
+    "aiType":"FLARE",
+	#"aiType":"CUSTOM",
+    #"aiScript":"data.scripts.shipsystems.ai.BladeTorrentAI",
+
+	"weaponDataId":"scarletroad_bladethrower",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

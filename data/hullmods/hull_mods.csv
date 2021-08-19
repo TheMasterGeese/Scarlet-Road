@@ -1,0 +1,31 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Scarlet Refit,scarletroad_scarletrefit,1,,,"special, merc",Special,5000,,,,5,10,15,30,data.hullmods.ScarletRefit,"Extensive overhaul of the ship's internals, based on Scarlet Road engineering practices.
+
+Removes any Shield or Phase Cloaking systems. 
+Increases armor by %s. 
+Increases EMP Resistance by %s. 
+Decreases Supply cost for maintenance by %s.","Removes Shield and Phase cloak but improves armor, emp resistance, and maintenance cost.",graphics/hullmods/scarletroad_scarletrefit.png
+Scarlet Specialization: Xiphos,scarletroad_xiphos,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationXiphos,"Requires Scarlet Refit.This vessel has been engineered by the Scarlet Road to specialize in close-range combat, at the cost of ability to bombard from long range and survive punishment.
+
+Increases top speed by %s.
+Increases Flux Dissipation by %s.
+Decreases range on all weapons by %s.
+Decreases weapon projectile speed by %s.
+Decreases Armor by %s.
+Increases Ship system cooldown by %s.","Requires Scarlet Refit. Specializes ship in close-range combat, decreases bombardment and survivability potential. ",graphics/hullmods/scarletroad_scarletrefit.png
+Scarlet Specializiation: Doru,scarletroad_doru,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationDoru,"Requires Scarlet Refit. This vessel has been engineered by the Scarlet Road to specialize in long range bombardment, at the cost of its ability to fight at close range and survive punishment.
+
+Increases range on all weapons by %s.
+Increases weapon projectile speed by %s.
+Decreases top speed by %s.
+Decreases Flux Dissipation by %s.
+Decreases armor by %s.
+Increases Ship system cooldown by %s.","Requires Scarlet Refit. Specializes ship in long-range bombardment, decreases short-range and survivability potential. ",graphics/hullmods/scarletroad_scarletrefit.png
+Scarlet Specializiation: Hoplon,scarletroad_hoplon,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationHoplon,"This vessel has been engineered by the Scarlet Road to specialize in support and survivability, at the cost of its ability to bombard from range and fight at close range.
+
+Increases Armor by %s.
+Decreases Ship system cooldown by %s.
+Decreases range on all weapons by %s.
+Decreases weapon projectile speed by %s.
+Decreases top speed by %s.
+Decreases Flux Dissipation by %s.",graphics/hullmods/scarletroad_scarletrefit.png,

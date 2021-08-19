@@ -1,0 +1,15 @@
+{
+	"id":"scarletroad_momentofcourage",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	"statsScript":"data.shipsystems.scripts.MomentOfCourageStats",
+	
+	"effectColor1":[255,187,69,155],
+	"effectColor2":[207,131,0,80],
+	
+	"weaponGlowColor":[216,47,77,255],
+	"weaponTypes":[BALLISTIC],
+
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,32 @@
+{
+  "hullName": "Station Armour (Left)",
+  "hullId": "scarletroad_module_citadelarmourleft",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/citadel_armor_left.png",
+  "style": "LOW_TECH",
+  "height": 131,
+  "width": 93,
+  "center": [37.5, 68],
+  "collisionRadius": 80,
+  "shieldCenter": [-0, -0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -800,
+    -110
+  ],
+  "builtInMods": [
+    "always_detaches",
+    "anchorrotation",
+    "reduced_explosion"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    64.5, -36.5,
+    48, -66,
+    -78.5, 6,
+    -58.5, 36.5,
+    13, 23
+  ]
+}

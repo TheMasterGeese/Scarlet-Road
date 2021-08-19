@@ -1,0 +1,27 @@
+{
+  "hullName": "Station Strut",
+  "hullId": "scarletroad_module_strut",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/auroran station strut.png",
+  "style": "LOW_TECH",
+  "height": 1600,
+  "width": 101,
+  "center": [50, 800],
+  "collisionRadius": 816.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 800,
+  "viewOffset": 0,
+  "builtInMods": [
+    "anchorrotation",
+    "vastbulk",
+    "never_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    51.5, -50,
+    -50, -50,
+    -50, 50,
+    51.5, 50
+  ]
+}

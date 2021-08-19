@@ -1,0 +1,27 @@
+{
+  "variantId": "scarletroad_station_Standard",
+  "hullId": "scarletroad_station",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "scarletroad_module_trianglebattery_Standard"
+    },
+    {
+      "WS0004": "scarletroad_module_trianglesupport_Standard"
+    },
+    {
+      "WS0007": "scarletroad_module_trianglebattery_Standard"
+    },
+    {
+      "WS0010": "scarletroad_module_trianglesupport_Standard"
+    }
+  ],
+  "wings": []
+}
