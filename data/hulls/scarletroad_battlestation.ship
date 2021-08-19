@@ -2,7 +2,7 @@
   "hullName": "Battlestation",
   "hullId": "scarletroad_battlestation",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/stations/auroran orbital station.png",
+  "spriteName": "graphics/ships/stations/auroranorbitalstation.png",
   "style": "LOW_TECH",
   "height": 900,
   "width": 300,
