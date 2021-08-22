@@ -1,0 +1,46 @@
+{
+  "variantId": "scarletroad_dedication_Fire_Support",
+  "hullId": "scarletroad_dedication",
+  "displayName": "Fire_Support",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "scarletroad_spec_hail"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler",
+        "WS0003": "scarletroad_hearing",
+        "WS0004": "scarletroad_hearing",
+        "WS0005": "harpoonpod",
+        "WS0006": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "scarletroad_confrontation"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,24 @@
+{
+  "variantId": "scarletroad_incorruptible_Heavy_Support",
+  "hullId": "scarletroad_incorruptible",
+  "displayName": "Heavy Support",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "scarletroad_spec_lightning"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
