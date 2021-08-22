@@ -2,7 +2,6 @@ package data.hullmods;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.MutableStat;
 import com.fs.starfarer.api.combat.ShieldAPI.ShieldType;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
@@ -11,12 +10,10 @@ import data.scripts.util.MagicIncompatibleHullmods;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ScarletRefit extends BaseHullMod {
+public class ScarletEngineering extends BaseHullMod {
+
 
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>(1);
-
-    public static final float SHIELD_ARC = 90f;
-    public static final float SPEED_MULT = 0.8f;
 
     private final float ARMOR_MULT = 1.1f;
     private final float EMP_DAMAGE_TAKEN_MULT = 0.5f;
@@ -35,9 +32,6 @@ public class ScarletRefit extends BaseHullMod {
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
-        float fluxDissipation = stats.getFluxDissipation().getBaseValue();
-        float shieldUpkeepCost = stats.getShieldUpkeepMult().getBaseValue();
-        stats.getFluxDissipation().modifyFlat(id,(int) fluxDissipation * -shieldUpkeepCost);
         stats.getArmorBonus().modifyMult(id, ARMOR_MULT);
         stats.getEmpDamageTakenMult().modifyMult(id, 1 - EMP_DAMAGE_TAKEN_MULT);
         stats.getSuppliesPerMonth().modifyMult(id, 1 - MAINTENANCE_COST_REDUCTION);
@@ -45,13 +39,20 @@ public class ScarletRefit extends BaseHullMod {
     }
 
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+        for (String tmp : BLOCKED_HULLMODS) {
+            if (ship.getVariant().getHullMods().contains(tmp)) {
+                MagicIncompatibleHullmods.removeHullmodWithWarning(ship.getVariant(),tmp,"scarletroad_scarletengineering");
+            }
+        }
+
         // This hullmod is meant to apply to non-Scarlet Road ships. Scarlet Road ships may use the Phase type, which is why they use the Scarlet Engineering Hullmod instead
         if ((ship.getShield() != null &&
                 (ship.getShield().getType() == ShieldType.FRONT ||
-                        ship.getShield().getType() == ShieldType.OMNI)) ||
-                ship.getPhaseCloak() != null) {
+                        ship.getShield().getType() == ShieldType.OMNI)))
+        {
             ship.setShield(ShieldType.NONE, 0f, 1f, 1f);
         }
+
     }
 
 
@@ -70,26 +71,10 @@ public class ScarletRefit extends BaseHullMod {
     }
 
     public boolean isApplicableToShip(ShipAPI ship) {
-        for (String tmp : BLOCKED_HULLMODS) {
-            if (ship.getVariant().getHullMods().contains(tmp)) {
-                return false;
-            }
-        }
-        if (ship.getVariant().getHullMods().contains("scarletroad_scarletengineering")) {
-            return false;
-        }
-        return true;
+        return ship != null;
     }
 
     public String getUnapplicableReason(ShipAPI ship) {
-        for (String tmp : BLOCKED_HULLMODS) {
-            if (ship.getVariant().getHullMods().contains(tmp)) {
-                return "Ship has incompatible shield hullmod.";
-            }
-        }
-        if (ship.getVariant().getHullMods().contains("scarletroad_scarletengineering")) {
-            return "Ship already has the Scarlet Engineering Hullmod";
-        }
         return "Ship is null";
     }
 }

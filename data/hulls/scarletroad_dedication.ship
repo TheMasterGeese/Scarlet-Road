@@ -12,7 +12,7 @@
   "shieldRadius": 126,
   "viewOffset": 0,
   "builtInMods": [
-    "scarletroad_scarletrefit"
+    "scarletroad_scarletengineering"
   ],
   "builtInWeapons": {
     "WS0007": "scarletroad_dedication_glow"
