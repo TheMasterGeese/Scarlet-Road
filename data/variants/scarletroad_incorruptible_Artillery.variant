@@ -7,13 +7,15 @@
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "scarletroad_spec_hail"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "gauss"
+        "WS0001": "scarletroad_tribulation"
       }
     }
   ],

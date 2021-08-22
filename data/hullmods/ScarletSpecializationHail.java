@@ -4,15 +4,14 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 
-public class ScarletSpecializationHoplon extends BaseHullMod {
+public class ScarletSpecializationHail extends BaseHullMod {
 
     private final float TOP_SPEED_MULT = 0.8f;
     private final float FLUX_DISSIPATION_MULT = 0.8f;
-    private final float WEAPON_RANGE_MULT = 0.8f;
-    private final float WEAPON_PROJECTILE_SPEED_MULT = 0.7f;
-    private final float ARMOR_MULT = 1.3f;
-    private final float SYSTEM_COOLDOWN_MULT = 0.7f;
-
+    private final float WEAPON_RANGE_MULT = 1.3f;
+    private final float WEAPON_PROJECTILE_SPEED_MULT = 1.45f;
+    private final float ARMOR_MULT = 0.8f;
+    private final float SYSTEM_COOLDOWN_MULT = 1.2f;
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -31,27 +30,25 @@ public class ScarletSpecializationHoplon extends BaseHullMod {
 
     }
 
-
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
         if (index == 0) {
-            return "" + Math.round((ARMOR_MULT - 1f) * 100f) + "%";
-        }
-        if (index == 1) {
-            return "" + Math.round((1f - SYSTEM_COOLDOWN_MULT) * 100f) + "%";
-        }
-        if (index == 2) {
             return "" + Math.round((WEAPON_RANGE_MULT - 1f) * 100f) + "%";
         }
-        if (index == 3) {
+        if (index == 1) {
             return "" + Math.round((WEAPON_PROJECTILE_SPEED_MULT - 1f) * 100f) + "%";
         }
-        if (index == 4) {
+        if (index == 2) {
             return "" + Math.round((TOP_SPEED_MULT - 1f) * 100f) + "%";
         }
-        if (index == 5) {
+        if (index == 3) {
             return "" + Math.round((FLUX_DISSIPATION_MULT - 1f) * 100f) + "%";
         }
-
+        if (index == 4) {
+            return "" + Math.round((ARMOR_MULT - 1f) * 100f) + "%";
+        }
+        if (index == 5) {
+            return "" + Math.round((1f - SYSTEM_COOLDOWN_MULT) * 100f) + "%";
+        }
 
         return null;
     }
@@ -59,8 +56,8 @@ public class ScarletSpecializationHoplon extends BaseHullMod {
     public boolean isApplicableToShip(ShipAPI ship) {
         return ship != null
                 && ship.getVariant().hasHullMod("scarletroad_scarletrefit")
-                && !ship.getVariant().hasHullMod("scarletroad_doru")
-                && !ship.getVariant().hasHullMod("scarletroad_xiphos");
+                && !ship.getVariant().hasHullMod("scarletroad_xiphos")
+                && !ship.getVariant().hasHullMod("scarletroad_hoplon");
     }
 
     public String getUnapplicableReason(ShipAPI ship) {
@@ -69,7 +66,7 @@ public class ScarletSpecializationHoplon extends BaseHullMod {
         } else if (!ship.getVariant().hasHullMod("scarletroad_scarletrefit")) {
             return "The Scarlet Refit hullmod is required.";
         } else if (ship.getVariant().hasHullMod("scarletroad_xiphos") ||
-                ship.getVariant().hasHullMod("scarletroad_doru")) {
+                ship.getVariant().hasHullMod("scarletroad_hoplon")) {
             return "This Ship already has a Scarlet Road Specialization.";
         } else {
             return "Unknown Reason";

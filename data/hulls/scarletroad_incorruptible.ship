@@ -11,6 +11,9 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 44.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "scarletroad_scarletrefit"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
