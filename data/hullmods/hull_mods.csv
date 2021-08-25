@@ -1,5 +1,5 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Scarlet Refit,scarletroad_scarletrefit,1,,,"special, merc",Special,5000,,,,5,10,15,30,data.hullmods.ScarletRefit,"Extensive overhaul of the ship's internals, in according with Scarlet Road Engineering doctrine.
+Scarlet Refit,scarletroad_scarletrefit,1,,,"scarletroad_hullmods_bp, special, merc",Special,5000,,,,5,10,15,30,data.hullmods.ScarletRefit,"Extensive overhaul of the ship's internals, in according with Scarlet Road Engineering doctrine.
 
 Removes any Shield or Phase Cloaking systems. 
 Reduces the ship's flux dissipation by the upkeep cost of the previously installed Shield/Phase Cloak.
@@ -7,13 +7,13 @@ Reduces the ship's flux dissipation by the upkeep cost of the previously install
 Increases armor by %s. 
 Increases EMP Resistance by %s. 
 Decreases Supply cost for maintenance by %s.","Removes Shield and Phase cloak but improves armor, emp resistance, and maintenance cost.",graphics/hullmods/scarletroad_refit.png
-Scarlet Engineering,scarletroad_scarletengineering,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ScarletEngineering,"This vessel was built according to Scarlet Road Engineering Doctrine. This provides the ship with a number of bonuses and allows it to choose a Scarlet Specialization, but prevents any shields or shield hullmods from being added to the ship.
+Scarlet Engineering,scarletroad_scarletengineering,,,,"scarletroad_hullmods_bp,",,,,TRUE,,0,0,0,0,data.hullmods.ScarletEngineering,"This vessel was built according to Scarlet Road Engineering Doctrine. This provides the ship with a number of bonuses and allows it to choose a Scarlet Specialization, but prevents any shields or shield hullmods from being added to the ship.
 
 Increases armor by %s. 
 Increases EMP Resistance by %s. 
 Decreases Supply cost for maintenance by %s.
 ","Native to all Scarlet Road ships. Provides bonuses to Armor, EMP resistance, and maintenance cost",graphics/hullmods/scarletroad_refit.png
-Specialization: Scarlet Lightning,scarletroad_spec_lightning,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationLightning,"Scarlet military doctrine emphasizes the importance of the Lightning element in battle: a unit that rapidly strikes with overwhelming force at the enemy's weakest point. This is accomplished through a combination of mobility and ample flux reserves. This vessel has been overhauled to embody the Scarlet Lightning at the expense of its other capabilities:
+Specialization: Scarlet Lightning,scarletroad_spec_lightning,2,,,"scarletroad_hullmods_bp, special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationLightning,"Scarlet military doctrine emphasizes the importance of the Lightning element in battle: a unit that rapidly strikes with overwhelming force at the enemy's weakest point. This is accomplished through a combination of mobility and ample flux reserves. This vessel has been overhauled to embody the Scarlet Lightning at the expense of its other capabilities:
 
 Increases top speed by %s.
 Increases Flux Capacity by %s.
@@ -21,7 +21,7 @@ Decreases range on all weapons by %s.
 Decreases weapon projectile speed by %s.
 Decreases Armor by %s.
 Increases Ship system cooldown by %s.","Scarlet Specialization, greatly improves top speed and flux capacity, decreases weapon range, projectile speed, armor, and increases ship system cooldown.",graphics/hullmods/scarletroad_spec_lightning.png
-Specialization: Scarlet Hail,scarletroad_spec_hail,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationHail,"Scarlet military doctrine emphasizes the importance of the Hail element in combat: a unit that emphasizes fire support and suppressing enemies from long range. This is accomplished through precise long-range bombardment. This vessel has been overhauled to embody the Scarlet Hail at the expense of its other capabilities.
+Specialization: Scarlet Hail,scarletroad_spec_hail,2,,,"scarletroad_hullmods_bp, special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationHail,"Scarlet military doctrine emphasizes the importance of the Hail element in combat: a unit that emphasizes fire support and suppressing enemies from long range. This is accomplished through precise long-range bombardment. This vessel has been overhauled to embody the Scarlet Hail at the expense of its other capabilities.
 
 Increases range on all weapons by %s.
 Increases weapon projectile speed by %s.
@@ -29,7 +29,7 @@ Decreases top speed by %s.
 Decreases Flux Capacity by %s.
 Decreases armor by %s.
 Increases Ship system cooldown by %s.","Scarlet Specialization, greatly improves range and projectile speed, decreases speed, flux capacity, armor, increases ship system cooldown.",graphics/hullmods/scarletroad_spec_hail.png
-Specializiation: Scarlet Wind,scarletroad_spec_wind,2,,,"special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationWind,"Scarlet military doctrine emphasizes the importance of the Wind element in combat, as a unit that inhibits and halts the advance of enemy forces. This is accomplished through a combination of heavy armor and frequent use of supporting or suppressive ship systems. This vessel has been overhauled to embody the Scarlet Wind at the expense of its other capabilities.
+Specializiation: Scarlet Wind,scarletroad_spec_wind,2,,,"scarletroad_hullmods_bp, special, merc",Special,15000,,,,5,12,19,25,data.hullmods.ScarletSpecializationWind,"Scarlet military doctrine emphasizes the importance of the Wind element in combat, as a unit that inhibits and halts the advance of enemy forces. This is accomplished through a combination of heavy armor and frequent use of supporting or suppressive ship systems. This vessel has been overhauled to embody the Scarlet Wind at the expense of its other capabilities.
 
 Increases Armor by %s.
 Decreases Ship system cooldown by %s.

@@ -32,21 +32,22 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
-			"heg_aux_bp":2,
-			"XIV_bp":0.25,
+			"scarletroad_ship_bp": 2
 		},
 		"hulls":{
-			"buffalo2":0, # just say no
+			"scarletroad_dedication": 4,
+			"scarletroad_incorruptible": 4,
+			"scarletroad_justice": 4
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "scarlet_bp"],
+		"tags":["base_bp", "scarletroad_ship_bp"],
 		"hulls":[
 		],
 	},
 	"knownShips":{
-		"tags":["base_bp", "scarlet_bp", "lowtech_bp"],
+		"tags":["base_bp", "scarletroad_ship_bp"],
 		"hulls":[
 			"atlas",
 			"prometheus"
@@ -54,7 +55,7 @@
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":[],
+		"tags":["scarletroad_ship_bp"],
 		"hulls":[
 			"scarletroad_justice",
 			"scarletroad_incorruptible",
@@ -62,10 +63,8 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hegemony"],
+		"tags":["base_bp"],
 		"fighters":[
-			"thunder_wing",
-			"hoplon_wing",
 		],
 	},
 	"priorityFighters":{
@@ -74,7 +73,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["base_bp", "lowtech_bp", "scarlet_bp"],
+		"tags":["base_bp", "scarletroad_weapon_bp"],
 		"weapons":[
 			"railgun",
 			"dualflak",
@@ -90,7 +89,7 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[],
+		"tags":["scarletroad_weapon_bp"],
 		"weapons":[
 			"scarletroad_tribulation",
 			"scarletroad_hearing",
@@ -245,7 +244,5 @@
 			"canBombard":false,
 			"territorial":true,
 		},
-	},	
-	
-	
+	},
 },

@@ -1,2 +1,21 @@
 {
+	"combatSmallForSmallFleet":{
+		"scarletroad_justice_Shock": 10,
+		"scarletroad_justice_Blade": 10,
+		"scarletroad_incorruptible_Artillery": 10,
+		"scarletroad_incorruptible_Heavy_Support": 10
+	},
+	"combatSmall":{
+		"scarletroad_justice_Shock": 10,
+		"scarletroad_justice_Blade": 10,
+		"scarletroad_incorruptible_Artillery": 10,
+		"scarletroad_incorruptible_Heavy_Support": 10,
+		"scarletroad_dedication_Assault": 5,
+		"scarletroad_dedication_Fire_Support": 5
+		
+	},
+	"combatMedium":{
+		"scarletroad_dedication_Assault": 10,
+		"scarletroad_dedication_Fire_Support": 10
+	}
 }

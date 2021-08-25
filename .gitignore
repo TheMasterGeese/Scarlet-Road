@@ -25,3 +25,4 @@ hs_err_pid*
 # jars and output are too big to be committed, can be generated locally.
 jars/*
 out/*
+/data/strings/descriptions core.csv
