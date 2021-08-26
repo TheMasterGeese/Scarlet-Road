@@ -24,7 +24,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 360,
-      "angle": -180,
+      "angle": 0,
       "locations": [-13, -0.5]
     },
     {
@@ -90,7 +90,7 @@
       "angle": 0,
       "locations": [22, -19.5]
     },
-	{
+    {
       "id": "WS0009",
       "size": "LARGE",
       "type": "DECORATIVE",
