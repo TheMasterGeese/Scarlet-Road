@@ -1,7 +1,7 @@
 {
 	"id":"scarletroad_weaverboost",
 	"type":"PHASE_CLOAK",
-	"aiType":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
 	
 	"statsScript":"data.shipsystems.scripts.WeaverBoostStats",
 	

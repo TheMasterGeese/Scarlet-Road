@@ -17,9 +17,9 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "flak",
-        "WS0002": "tahlan_ramun",
-        "WS0003": "tahlan_ramun",
-        "WS0004": "tahlan_volkite"
+        "WS0002": "lightneedler",
+        "WS0003": "lightneedler",
+        "WS0004": "lightag"
       }
     }
   ],

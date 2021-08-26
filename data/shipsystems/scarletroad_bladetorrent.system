@@ -1,9 +1,7 @@
 {
     "id":"scarletroad_bladetorrent",
     "type":"WEAPON",
-    "aiType":"FLARE",
-	#"aiType":"CUSTOM",
-    #"aiScript":"data.scripts.shipsystems.ai.BladeTorrentAI",
+	"aiType":"CUSTOM",
 
 	"effectColor1":[243,31,68,255],
 	"effectColor2":[143,22,44,255],
