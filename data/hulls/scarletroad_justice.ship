@@ -12,8 +12,11 @@
   "shieldRadius": 64,
   "viewOffset": 0,
   "builtInMods": [
-    "scarletroad_scarletengineering",
+    "scarletroad_scarletengineering"
   ],
+  "builtInWeapons": {
+    "WS0009": "scarletroad_justice_glow"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -58,7 +61,7 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 0,
-      "locations": [6.5, 41]
+      "locations": [3, 48.5]
     },
     {
       "id": "WS0006",
@@ -67,7 +70,7 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 0,
-      "locations": [6.5, -41]
+      "locations": [3, -48.5]
     },
     {
       "id": "WS0007",
@@ -76,7 +79,7 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 0,
-      "locations": [19.5, 19.5]
+      "locations": [22, 19.5]
     },
     {
       "id": "WS0008",
@@ -85,7 +88,16 @@
       "mount": "HIDDEN",
       "arc": 90,
       "angle": 0,
-      "locations": [19.5, -19.5]
+      "locations": [22, -19.5]
+    },
+	{
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, 0]
     }
   ],
   "engineSlots": [

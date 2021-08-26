@@ -5,6 +5,9 @@
 	#"aiType":"CUSTOM",
     #"aiScript":"data.scripts.shipsystems.ai.BladeTorrentAI",
 
+	"effectColor1":[243,31,68,255],
+	"effectColor2":[143,22,44,255],
+	
 	"weaponDataId":"scarletroad_bladethrower",
 	"outOfUsesSound":"gun_out_of_ammo",
 	

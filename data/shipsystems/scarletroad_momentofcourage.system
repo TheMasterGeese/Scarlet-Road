@@ -4,10 +4,10 @@
 	"aiType":"WEAPON_BOOST",
 	"statsScript":"data.shipsystems.scripts.MomentOfCourageStats",
 	
-	"effectColor1":[255,187,69,155],
-	"effectColor2":[207,131,0,80],
+	"effectColor1":[243,31,68,255],
+	"effectColor2":[143,22,44,255],
 	
-	"weaponGlowColor":[216,47,77,255],
+	"weaponGlowColor":[243,31,68,255],
 	"weaponTypes":[BALLISTIC],
 
 	"useSound":"system_ammo_feeder",
