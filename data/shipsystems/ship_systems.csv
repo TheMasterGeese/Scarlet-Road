@@ -4,3 +4,4 @@ Integrated Damper Field,scarletroad_integrateddamper,,,,,,,,,,,,,,TRUE,TRUE,,TRU
 Moment of Courage,scarletroad_momentofcourage,,,,,,,,,,,2,,30,,,,,,,,,,,FALSE,,graphics/icons/hullsys/ammo_feeder.png
 Weaver Boost,scarletroad_weaverboost,,,,,,,,,,,,,,TRUE,TRUE,,TRUE,TRUE,,,,,TRUE,FALSE,,graphics/icons/hullsys/maneuvering_jets.png
 Blade Torrent,scarletroad_bladetorrent,,,,,,,,,,,,,15,,,,,,,,,,TRUE,FALSE,,graphics/icons/hullsys/drone_sensor.png
+Five Drones,dl_fivedrones,,,,,,0.01,,,,0.3,,0.3,,,,,,,,,,,,FALSE,,graphics/icons/hullsys/drone_pd_high.png
