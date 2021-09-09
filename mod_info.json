@@ -8,7 +8,7 @@
   "jars": [
     "jars/mymod.jar"
   ],
-  "modPlugin": "data.scripts.ScarletRoad_ModPlugin"
+  "modPlugin": "data.scripts.ScarletRoad_ModPlugin",
   "dependencies": [
 		{
 			"id": "lw_lazylib",

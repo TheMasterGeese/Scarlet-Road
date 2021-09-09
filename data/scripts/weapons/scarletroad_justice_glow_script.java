@@ -25,7 +25,7 @@ public class scarletroad_justice_glow_script implements EveryFrameWeaponEffectPl
         }
 
         ShipAPI ship = weapon.getShip();
-        if (ship == null) {
+        if (ship == null || ship.getSystem() == null) {
             return;
         }
 
