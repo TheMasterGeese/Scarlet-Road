@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
+import data.scripts.util.dl_SubsystemUtils;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -26,7 +27,7 @@ public class scarletroad_dedication_glow_script implements EveryFrameWeaponEffec
         }
 
         ShipAPI ship = weapon.getShip();
-        if (ship == null) {
+        if (ship == null || ship.getSystem() == null) {
             return;
         }
 
@@ -65,7 +66,12 @@ public class scarletroad_dedication_glow_script implements EveryFrameWeaponEffec
 
 
         //Change color again if system is active and set brightness to max
-        if (ship.getSystem().isActive()) {
+        if (ship.getSystem() != null && ship.getSystem().isActive()) {
+            colorToUse = new Color(COLOR_SYSTEM[0], COLOR_SYSTEM[1], COLOR_SYSTEM[2], currentBrightness * MAX_OPACITY);
+        }
+
+        // if the ship has any subsystems
+        if (dl_SubsystemUtils.getSubsystemManager().getSubsystems().get(ship.getId()) != null) {
             colorToUse = new Color(COLOR_SYSTEM[0], COLOR_SYSTEM[1], COLOR_SYSTEM[2], currentBrightness * MAX_OPACITY);
         }
 
