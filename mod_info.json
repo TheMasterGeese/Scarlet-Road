@@ -13,12 +13,12 @@
 		{
 			"id": "lw_lazylib",
 			"name": "LazyLib",
-			#"version": "2.6" # If a specific version or higher is required, include this line
+			"version": "2.6"
 		},
 		{
 			"id": "dronelib",
 			"name": "DroneLib",
-			#"version": "1.1.0" # If a specific version is NOT required, comment out this line
+			"version": "1.1.0"
 		}
 	]
 }
